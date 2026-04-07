@@ -9,7 +9,8 @@ const comicsData = [
         quantity: 25,
         category: "Comics",
         publisher: "Image Comics",
-        publicationYear: 2003
+        publicationYear: 2003,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1582406015-M.jpg"
     },
     {
         title: "The Walking Dead Vol. 1",
@@ -20,7 +21,8 @@ const comicsData = [
         quantity: 30,
         category: "Comics",
         publisher: "Image Comics",
-        publicationYear: 2003
+        publicationYear: 2003,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1582406619-M.jpg"
     },
     {
         title: "Y: The Last Man Vol. 1",
@@ -31,7 +33,8 @@ const comicsData = [
         quantity: 20,
         category: "Comics",
         publisher: "DC Comics",
-        publicationYear: 2002
+        publicationYear: 2002,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207540-M.jpg"
     },
     {
         title: "Saga Vol. 1",
@@ -42,7 +45,8 @@ const comicsData = [
         quantity: 18,
         category: "Comics",
         publisher: "Image Comics",
-        publicationYear: 2012
+        publicationYear: 2012,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1607066019-M.jpg"
     },
     {
         title: "Preacher Vol. 1",
@@ -53,7 +57,8 @@ const comicsData = [
         quantity: 15,
         category: "Comics",
         publisher: "DC Comics/Vertigo",
-        publicationYear: 1996
+        publicationYear: 1996,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207687-M.jpg"
     },
     {
         title: "The Ultimates Vol. 1",
@@ -64,7 +69,8 @@ const comicsData = [
         quantity: 12,
         category: "Comics",
         publisher: "Marvel Comics",
-        publicationYear: 2002
+        publicationYear: 2002,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0785109051-M.jpg"
     },
     {
         title: "Powers Vol. 1",
@@ -75,7 +81,8 @@ const comicsData = [
         quantity: 16,
         category: "Comics",
         publisher: "Image Comics",
-        publicationYear: 2000
+        publicationYear: 2000,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1582406847-M.jpg"
     },
     {
         title: "Astonishing X-Men Vol. 1",
@@ -86,7 +93,8 @@ const comicsData = [
         quantity: 14,
         category: "Comics",
         publisher: "Marvel Comics",
-        publicationYear: 2004
+        publicationYear: 2004,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0785115847-M.jpg"
     },
     {
         title: "Fables Vol. 1",
@@ -97,7 +105,8 @@ const comicsData = [
         quantity: 13,
         category: "Comics",
         publisher: "DC Comics/Vertigo",
-        publicationYear: 2002
+        publicationYear: 2002,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207328-M.jpg"
     },
     {
         title: "Ex Machina Vol. 1",
@@ -108,7 +117,8 @@ const comicsData = [
         quantity: 11,
         category: "Comics",
         publisher: "DC Comics/Wildstorm",
-        publicationYear: 2004
+        publicationYear: 2004,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401204969-M.jpg"
     },
     {
         title: "Hellboy Vol. 1: Seed of Destruction",
@@ -119,7 +129,8 @@ const comicsData = [
         quantity: 17,
         category: "Comics",
         publisher: "Dark Horse Comics",
-        publicationYear: 1994
+        publicationYear: 1994,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1569380185-M.jpg"
     },
     {
         title: "DMZ Vol. 1",
@@ -130,7 +141,8 @@ const comicsData = [
         quantity: 10,
         category: "Comics",
         publisher: "DC Comics/Vertigo",
-        publicationYear: 2003
+        publicationYear: 2003,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207632-M.jpg"
     },
     {
         title: "Runaways Vol. 1",
@@ -141,18 +153,20 @@ const comicsData = [
         quantity: 19,
         category: "Comics",
         publisher: "Marvel Comics",
-        publicationYear: 2003
+        publicationYear: 2003,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0785110032-M.jpg"
     },
     {
         title: "Transmetropolitan Vol. 1",
         author: "Warren Ellis",
-        isbn: "978-1401207632",
+        isbn: "978-1401207649",
         description: "A cynical journalist returns to the sprawling futuristic city to expose corruption and the truth, armed with his cat and a collection of deviant tech.",
         price: 16.99,
         quantity: 14,
         category: "Comics",
         publisher: "DC Comics/Wildstorm",
-        publicationYear: 1997
+        publicationYear: 1997,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207649-M.jpg"
     },
     {
         title: "The Sandman Vol. 1: Preludes and Nocturnes",
@@ -163,7 +177,8 @@ const comicsData = [
         quantity: 8,
         category: "Comics",
         publisher: "DC Comics/Vertigo",
-        publicationYear: 1989
+        publicationYear: 1989,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0930289012-M.jpg"
     },
     {
         title: "Scalped Vol. 1",
@@ -174,7 +189,8 @@ const comicsData = [
         quantity: 12,
         category: "Comics",
         publisher: "DC Comics/Vertigo",
-        publicationYear: 2007
+        publicationYear: 2007,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-1401207755-M.jpg"
     },
     {
         title: "V for Vendetta",
@@ -185,7 +201,8 @@ const comicsData = [
         quantity: 9,
         category: "Comics",
         publisher: "DC Comics",
-        publicationYear: 1988
+        publicationYear: 1988,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0930289528-M.jpg"
     },
     {
         title: "Watchmen",
@@ -196,7 +213,8 @@ const comicsData = [
         quantity: 7,
         category: "Comics",
         publisher: "DC Comics",
-        publicationYear: 1986
+        publicationYear: 1986,
+        imageUrl: "https://covers.openlibrary.org/b/isbn/978-0930289234-M.jpg"
     }
 ];
 
