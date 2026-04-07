@@ -27,7 +27,7 @@ async function fetchBook() {
     }
 }
 
-function addToCart() {
+async function addToCart() {
     if (!user.token) {
         notyf.error("Please log in to add items to cart");
         router.push({ path: "/login" });
@@ -39,21 +39,15 @@ function addToCart() {
         return;
     }
 
-    // Add to cart logic here
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const existingItem = cart.find(item => item._id === book.value._id);
-
-    if (existingItem) {
-        existingItem.cartQuantity += parseInt(quantity.value);
-    } else {
-        cart.push({
-            ...book.value,
-            cartQuantity: parseInt(quantity.value)
+    try {
+        await api.post("/cart", {
+            bookId: book.value._id,
+            quantity: parseInt(quantity.value)
         });
+        notyf.success("Added to cart!");
+    } catch (err) {
+        notyf.error(err.response?.data?.message || "Failed to add to cart");
     }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-    notyf.success("Added to cart!");
 }
 
 onBeforeMount(() => {
